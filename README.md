@@ -83,22 +83,6 @@ Developed a recommendation function using Euclidean distance to identify songs w
 ### 7. Web Application
 Created an interactive application using Streamlit, allowing users to select a song and receive similar song recommendations.
 
-## Application Screenshots
-
-Add your screenshots to a folder named `screenshots` in this repository.
-
-**Main Application**
-
-![Main Application](screenshots/main-app.png)
-
-**Song Selection**
-
-![Song Selection](screenshots/song-selection.png)
-
-**Recommended Songs**
-
-![Recommended Songs](screenshots/recommendations.png)
-
 ## Project Structure
 
 ```text
