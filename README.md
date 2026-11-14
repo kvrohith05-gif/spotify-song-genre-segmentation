@@ -95,11 +95,7 @@ spotify-song-genre-segmentation/
 ├── scaler.pkl
 ├── scaled_audio_features.npy
 ├── README.md
-│
-└── screenshots/
-    ├── main-app.png
-    ├── song-selection.png
-    └── recommendations.png
+
 ```
 
 ## Run the Project Locally
