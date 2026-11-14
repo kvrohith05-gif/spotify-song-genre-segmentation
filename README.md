@@ -1,22 +1,22 @@
-# 🎵 Spotify Song Recommendation System
+# Spotify Song Recommendation System
 
 A Machine Learning-based Spotify Song Recommendation System that recommends songs similar to a user's favourite track using **K-Means Clustering** and audio feature similarity.
 
 The application allows users to select a Spotify song and discover similar songs based on their audio characteristics.
 
-## 🚀 Live Application
+## Live Application
 
 **Try the application here:**
 
 [Spotify Song Recommendation System](https://spotify-song-genre-segmentation-ahyfnqj2liycpchgrkgzpr.streamlit.app/)
 
-## 📌 Project Overview
+## Project Overview
 
 Music recommendation systems help users discover songs based on their listening preferences.
 
 This project uses Spotify song data and Machine Learning techniques to group songs with similar audio characteristics. When a user selects a song, the system recommends other songs that have similar audio features.
 
-## 🎯 Objectives
+## Objectives
 
 - Analyze Spotify song data.
 - Perform data cleaning and preprocessing.
@@ -25,7 +25,7 @@ This project uses Spotify song data and Machine Learning techniques to group son
 - Build a song recommendation system.
 - Deploy the application using Streamlit.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -40,7 +40,7 @@ This project uses Spotify song data and Machine Learning techniques to group son
 - Google Colab
 - GitHub
 
-## 📂 Dataset
+## Dataset
 
 **Dataset:** Spotify 2019–2020 Songs Dataset
 
@@ -48,7 +48,7 @@ Source: [Spotify Songs Dataset](https://github.com/rfordatascience/tidytuesday/b
 
 The dataset contains approximately 33,000 songs and includes information such as song name, artist, genre, popularity and audio features.
 
-## ⚙️ Project Methodology
+## Project Methodology
 
 ### 1. Data Collection
 Collected the Spotify songs dataset containing song details and audio characteristics.
@@ -83,7 +83,7 @@ Developed a recommendation function using Euclidean distance to identify songs w
 ### 7. Web Application
 Created an interactive application using Streamlit, allowing users to select a song and receive similar song recommendations.
 
-## 📸 Application Screenshots
+## Application Screenshots
 
 Add your screenshots to a folder named `screenshots` in this repository.
 
@@ -99,7 +99,7 @@ Add your screenshots to a folder named `screenshots` in this repository.
 
 ![Recommended Songs](screenshots/recommendations.png)
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 spotify-song-genre-segmentation/
@@ -118,7 +118,7 @@ spotify-song-genre-segmentation/
     └── recommendations.png
 ```
 
-## ▶️ Run the Project Locally
+## Run the Project Locally
 
 **Step 1:** Clone the repository.
 
@@ -144,11 +144,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📓 Google Colab Notebook
+## Google Colab Notebook
 
 [Open Project Notebook](PASTE_YOUR_GOOGLE_COLAB_LINK_HERE)
 
-## 🌟 Future Enhancements
+## Future Enhancements
 
 - Improve recommendation quality.
 - Experiment with different clustering algorithms.
@@ -156,13 +156,10 @@ streamlit run app.py
 - Include more Spotify audio features.
 - Improve the user interface.
 
-## 👨‍💻 Author
+## Author
 
 **K Venkata Rohith**
 
 GitHub: [kvrohith05-gif](https://github.com/kvrohith05-gif)
 
----
-
-⭐ If you find this project interesting, feel free to explore the repository and try the live application!
 
