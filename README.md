@@ -51,16 +51,20 @@ The dataset contains approximately 33,000 songs and includes information such as
 ## Project Methodology
 
 ### 1. Data Collection
+
 Collected the Spotify songs dataset containing song details and audio characteristics.
 
 ### 2. Data Preprocessing
+
 - Checked missing values.
 - Removed unnecessary columns.
 - Selected relevant audio features.
 - Standardized numerical features using StandardScaler.
 
 ### 3. Exploratory Data Analysis (EDA)
+
 Performed visual analysis using:
+
 - Genre distribution.
 - Audio feature histograms.
 - Popularity analysis.
@@ -68,6 +72,7 @@ Performed visual analysis using:
 - Danceability and energy comparison.
 
 ### 4. K-Means Clustering
+
 Applied K-Means Clustering to group songs based on their audio features.
 
 Tested different cluster values and selected K = 2 based on the highest silhouette score among the tested values.
@@ -75,12 +80,15 @@ Tested different cluster values and selected K = 2 based on the highest silhouet
 **Best Silhouette Score: 0.1462**
 
 ### 5. Dimensionality Reduction
+
 Used Principal Component Analysis (PCA) to visualize the song clusters in a lower-dimensional space.
 
 ### 6. Song Recommendation
+
 Developed a recommendation function using Euclidean distance to identify songs with similar audio characteristics within the same cluster.
 
 ### 7. Web Application
+
 Created an interactive application using Streamlit, allowing users to select a song and receive similar song recommendations.
 
 ## Project Structure
@@ -90,12 +98,13 @@ spotify-song-genre-segmentation/
 │
 ├── app.py
 ├── requirements.txt
+├── Spotify_Song_Recommendation_System.ipynb
+├── Spotify_Song_Recommendation_System_Presentation.pptx
 ├── spotify_songs_clustered.csv
 ├── kmeans_model.pkl
 ├── scaler.pkl
 ├── scaled_audio_features.npy
-├── README.md
-
+└── README.md
 ```
 
 ## Run the Project Locally
@@ -124,9 +133,23 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Google Colab Notebook
+## Project Links
 
-[Open Project Notebook]https://colab.research.google.com/github/kvrohith05-gif/spotify-song-genre-segmentation/blob/main/Spotify_Song_Recommendation_System.ipynb
+### 1. Live Application
+
+[Open Spotify Song Recommendation App](https://spotify-song-genre-segmentation-ahyfnqj2liycpchgrkgzpr.streamlit.app/)
+
+### 2. Google Colab Notebook
+
+[Open Project Notebook](https://colab.research.google.com/github/kvrohith05-gif/spotify-song-genre-segmentation/blob/main/Spotify_Song_Recommendation_System.ipynb)
+
+### 3. Project Presentation
+
+[Download Project PPT](Spotify_Song_Recommendation_System_Presentation.pptx)
+
+### 4. Source Code
+
+[View Python Source Code](app.py)
 
 ## Future Enhancements
 
@@ -141,5 +164,4 @@ streamlit run app.py
 **K Venkata Rohith**
 
 GitHub: [kvrohith05-gif](https://github.com/kvrohith05-gif)
-
 
