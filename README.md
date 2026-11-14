@@ -126,7 +126,7 @@ streamlit run app.py
 
 ## Google Colab Notebook
 
-[Open Project Notebook](PASTE_YOUR_GOOGLE_COLAB_LINK_HERE)
+[Open Project Notebook]https://colab.research.google.com/github/kvrohith05-gif/spotify-song-genre-segmentation/blob/main/Spotify_Song_Recommendation_System.ipynb
 
 ## Future Enhancements
 
